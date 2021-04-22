@@ -10,3 +10,7 @@ FROM Tips
 LIMIT 5;
 ```
 
+```Python
+Tips[['Bill','Tip','Smoke','Meal']].head()
+```
+
