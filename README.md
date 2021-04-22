@@ -1,2 +1,2 @@
-<img src='Pandas.png'>
+<img src='Pandas.png' width=50%>
 
