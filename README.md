@@ -2,7 +2,7 @@
 
 ### Pandas vs SQL 
 
-### SELECT
+### 1. SELECT Columns
 
 ```SQL
 SELECT Bill, Tip, Smoke, Meal
