@@ -4,24 +4,25 @@
 
 ### 1. SELECT Columns
 
-```SQL
-SELECT Bill, Tip, Smoke, Meal
-FROM Tips
-LIMIT 5;
-```
-
-```Python
-Tips[['Bill','Tip','Smoke','Meal']].head()
-```
-
 ### 2. SELECT Columns and Calculate
 
-```SQL
-SELECT *, Tip / Bill as Rate
-FROM Tips
-LIMIT 5;
-```
+### 3. WHERE 
 
-```Python
-Tips.assign(Rate = Tips['Tip'] / Tips['Bill']).head()
-```
+### 4. AND | OR
+
+### 5. IS NULL | IS NOT NULL ( isna( ) | notna( ) )
+
+### 6. GROUP BY ( DataFrame.groupby( ) )
+ 
+### 7. GROUP BY + AGGREGATE ( DataFrame.groupby( ).agg( ) )
+
+### 8. JOIN's ( INNER, LEFT, RIGHT, FULL ) ( merge( ) )
+
+### 9. UNION ( No Duplicates ) ( concat() + drop_duplicates( ) )
+
+### 10. UNION ALL ( Include Duplicates ) ( concat( ) )
+
+### 11. UPDATE
+
+### 12. DELETE
+
