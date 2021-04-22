@@ -1,2 +1,2 @@
-<img src='Pandas.png' width=25% align=center>
+<p align=center><img src='Pandas.png' width=25%></p>
 
