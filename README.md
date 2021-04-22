@@ -1,6 +1,6 @@
 <p align=center><img src='Pandas.png' width=25%></p>
 
-### Pandas and SQL Equivalents
+### Pandas VS SQL 
 
 ### SELECT
 
