@@ -14,3 +14,14 @@ LIMIT 5;
 Tips[['Bill','Tip','Smoke','Meal']].head()
 ```
 
+### 2. SELECT Columns and Calculate
+
+```SQL
+SELECT *, Tip / Bill as Rate
+FROM Tips
+LIMIT 5;
+```
+
+```Python
+Tips.assign(Rate = Tips['Tip'] / Tips['Bill']).head()
+```
